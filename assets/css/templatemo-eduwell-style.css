@@ -146,8 +146,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -157,8 +157,8 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   opacity: 0.9;
 }
 
@@ -239,8 +239,8 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  background: rgb(250,218,221) !important;
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -839,12 +839,12 @@ section.our-courses .naccs .menu div {
   vertical-align: middle;
   font-weight: 900;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219,138,222,0.5);
+  border: 3px solid rgba(250,218,221,0.5);
 }
 
 section.our-courses .naccs .menu div.active {
   color: #DCC6F9;
-  border: 3px solid rgba(219,138,222,1);
+  border: 3px solid rgba(250,218,221,1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -885,8 +885,8 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   color: #fff;
   top: 20px;
   left: 20px;
@@ -1127,8 +1127,8 @@ section.contact-us .contact-info .icon i {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   color: #fff;
 }
 
@@ -1195,8 +1195,8 @@ section.contact-us #contact button {
   float: right;
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1552,8 +1552,8 @@ section.our-office #video .thumb .play-button a {
   transform: translate(-40px, -40px);
   color: #fff;
   font-size: 22px;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(250,218,221);
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
 }
 
 section.our-office #video img {
@@ -1749,8 +1749,8 @@ body {
     font-size: 62px;
   }
   .header-area {
-    background: rgb(219,138,222) !important;
-    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+    background: rgb(250,218,221) !important;
+    background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%) !important;
   }
   .services .owl-nav .owl-next{
     right: -70px;
