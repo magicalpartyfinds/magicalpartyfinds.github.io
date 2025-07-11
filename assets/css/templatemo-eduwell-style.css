@@ -21,7 +21,12 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+@font-face {
+  font-family: 'PlayFair Display';
+  src:  url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Regular.woff') format('woff');
+}
 /* 
 ---------------------------------------------
 reset
@@ -73,7 +78,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins';
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -87,6 +92,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'PlayFair Display';
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -114,7 +120,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins';
 }
 
 ::selection {
@@ -145,13 +151,13 @@ body {
 
 .main-button-gradient a {
   font-size: 13px;
-  color: #fff;
+  color: #3F4C6B;
   background: rgb(250,218,221);
   background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   transition: all .3s;
 }
@@ -727,8 +733,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #DCC6F9;
-}
+  color: #FFD700;
 
 .main-banner .main-button-gradient {
   position: relative;
@@ -1714,6 +1719,10 @@ section.more-info .count-area-content .count-title {
   z-index: 1;
 }
 
+
+.text-center { 
+	text-align: center;
+}
 
 /* 
 ---------------------------------------------
