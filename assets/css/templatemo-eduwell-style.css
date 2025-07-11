@@ -263,8 +263,11 @@ header
 }
 
 .header-area .main-nav {
+  background: rgb(250,218,221) !important;
+  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%) !important;
   min-height: 80px;
   background: transparent;
+  color: #3F4C6B;
 }
 
 .header-area .main-nav .logo {
