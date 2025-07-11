@@ -91,7 +91,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/guidebook.png" alt="Birthday Guides">
+                  <img src="assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Birthday Guides</h4>
                 <p>Step-by-step themed party guides with printable checklists.</p>
@@ -100,7 +100,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/amazon.png" alt="Amazon Finds">
+                  <img src="assets/images/service-icon-02.png" alt="">
                 </div>
                 <h4>Amazon Finds</h4>
                 <p>Top-rated themed supplies shipped fast and mom-approved.</p>
@@ -109,7 +109,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/printable.png" alt="Printable Decor">
+                  <img src="assets/images/service-icon-03.png" alt="">
                 </div>
                 <h4>Printable Decor</h4>
                 <p>Invitations, cupcake toppers, signs & more—ready to download.</p>
@@ -118,7 +118,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/seasonal.png" alt="Seasonal Ideas">
+                  <img src="assets/images/service-icon-04.png" alt="">
                 </div>
                 <h4>Seasonal Ideas</h4>
                 <p>Halloween, holidays & seasonal themed party inspiration.</p>
