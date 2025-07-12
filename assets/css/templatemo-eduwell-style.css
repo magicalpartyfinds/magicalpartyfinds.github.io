@@ -23,10 +23,23 @@ font & reset css
 */
 @font-face {
   font-family: 'PlayFair Display';
-  src:  url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
-  font-family: 'Poppins';
-  src:  url('../fonts/Poppins-Regular.woff') format('woff');
+  src:  url('../fonts/PlayfairDisplay-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dancing Script';
+  src:  url('../fonts/DancingScript-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* 
 ---------------------------------------------
 reset
@@ -55,6 +68,48 @@ figure, header, nav, section, article, aside, footer, figcaption {
   display: inline-block;
 }
 
+.has-pink-color { 
+	color: #FADADD;
+} 
+.has-pink-background-color { 
+	background-color: #FADADD;
+} 
+.has-yellow-color { 
+	color: #FFF9ED;
+} 
+.has-yellow-background-color { 
+	background-color: #FFF9ED;
+} 
+.has-purple-color { 
+	color: #DCC6F9;
+} 
+.has-purple-background-color { 
+	background-color: #DCC6F9;
+} 
+.has-navy-color { 
+	color: #3F4C6B;
+} 
+.has-navy-background-color { 
+	background-color: #3F4C6B;
+} 
+.has-gold-color { 
+	color: #FFD700;
+} 
+.has-gold-background-color { 
+	background-color; #FFD700;
+} 
+.has-xl-size { 
+	font-size: 4em;
+} 
+.has-large-size { 
+	font-size: 3em;
+} 
+.has-medium-size { 
+	font-size: 1.5em;
+} 
+.has-small-size { 
+	font-size: .85em;
+} 
 html[xmlns] .clearfix {
   display: block;
 }
@@ -81,30 +136,38 @@ html, body {
   font-family: 'Poppins';
   font-weight: 400;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 18px;
+  color: #3F4C6B;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.accent { 
+  font-family: 'Dancing Script';
+} 
 
 a {
   text-decoration: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PlayFair Display';
+  font-family: 'PlayFair Display',sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-weight: 700;
+  text-transform: none; 
+  letter-spacing: 1px;
+  line-height: 1em;
 }
+
 
 ul {
   margin-bottom: 0px;
 }
 
 p {
-  font-size: 14px;
-  line-height: 25px;
-  color: #4a4a4a;
+
 }
 
 img {
@@ -150,8 +213,9 @@ body {
 }
 
 .main-button-gradient a {
-  font-size: 13px;
-  color: #3F4C6B;
+  font-size: 1em;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
   background: rgb(250,218,221);
   background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
   padding: 12px 30px;
@@ -164,8 +228,6 @@ body {
 
 .main-button-gradient a:hover {
   background: rgb(250,218,221);
-  background: linear-gradient(-145deg, rgba(250,218,221,1) 0%, rgba(220,198,249,1) 100%);
-  opacity: 0.9;
 }
 
 .white-button a {
@@ -213,21 +275,6 @@ section {
   margin-bottom: 60px;
 }
 
-.section-heading h6 {
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #7a7a7a;
-  font-weight: 600;
-}
-
-.section-heading h4 {
-  margin-top: 10px;
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: 900;
-  text-transform: capitalize;
-  color: #111;
-}
 
 .section-heading h4 em {
   font-style: normal;
@@ -325,10 +372,11 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 400;
-  font-size: 14px;
+  font-family:'PlayFair Display', serif; 
+  font-weight: 700;
+  font-size: 20px;
   text-transform: capitalize;
-  color: #3F4C68
+  color: #3F4C68;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -711,29 +759,27 @@ section.main-banner {
   z-index: 1;
 }
 
-.main-banner .header-text h6 {
+.main-banner .header-text h1.accent {
   position: relative;
   z-index: 2;
-  font-size: 17px;
-  font-weight: 500;
   text-transform: capitalize;
-  color: #777777;;
+  color: 333;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 .main-banner .header-text h2 {
   position: relative;
   z-index: 2;
-  margin-top: 20px;
-  font-size: 64px;
-  color: #111111;
-  font-weight: 900;
-  line-height: 74px;
+  margin-top: 5px;
+  font-size: 3em;
   margin-bottom: 40px;
 }
 
 .main-banner .header-text h2 em {
   font-style: normal;
   color: #FFD700;
+}
 
 .main-banner .main-button-gradient {
   position: relative;
@@ -767,7 +813,6 @@ services
 .services .item h4 {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 20px;
   font-weight: 800;
 }
 
